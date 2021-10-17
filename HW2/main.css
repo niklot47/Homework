@@ -70,3 +70,19 @@ a:hover {
 
 }
 
+
+.img_anim{
+    background: yellow;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+    /*justify-content: flex-end;*/
+}
+
+.img_anim:hover {
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    /*justify-content:  flex-end;*/
+}
