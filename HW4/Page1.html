@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Page1
+    </title>
+</head>
+
+<style>
+    body div{
+        margin: 5px;
+        padding: 5px;
+        border: 3px solid #1c1f6c;
+        border-radius: 5px;
+        background: cornflowerblue;
+        justify-content: center;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container div{
+       min-height:200px;
+    }
+    .container__content{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .container__content--side{
+        width: 25%;
+    }
+    .container__content--main{
+        width: 75%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="container__header">A</div>
+        <div class="container__content">
+            <div class="container__content--main">B</div>
+            <div class="container__content--side">C</div>
+        </div>
+    </div>
+</body>
+</html>
