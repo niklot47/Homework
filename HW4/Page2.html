@@ -6,54 +6,51 @@
 </head>
 
 <style>
-    .mar {
+    .mystyle {
         margin: 5px;
-    }
-
-    .pad {
-        padding: 5px;
-    }
-
-    .bg1 {
         background: #393eda;
-    }
-
-    .bg2 {
-        background: #1c1f6c;
-    }
-
-    .ht400 {
         height: 400px;
-    }
-    .ht200 {
-        height: 200px;
-    }
-
-    .cnt {
+        font-size: 40px;
+        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 40px;
-        color: white;
     }
-    .widgets {
+
+    .header{
+        height: 120px;
+    }
+
+    .nav{
+        height: 80px;
+    }
+
+    .content{
         display: flex;
     }
 
-    wh32 {
+    .main{
+        flex-grow: 3;
+    }
+
+    .aside{
         flex-grow: 1;
-        /*width: 33.33%;*/
+    }
+
+    .footer{
+        height: 200px;
     }
 </style>
 
 <body>
-<div class="mar pad ht400 cnt bg1">Widgets</div>
-<div class="widgets">
-    <div class="mar pad bg2 cnt ht200 wh32">Big Widget</div>
-    <div class="mar pad bg2 cnt ht200 wh32">Bigger Widget</div>
-    <div class="mar pad bg2 cnt ht200 wh32">Huge Widget</div>
+
+<div class="header mystyle">Header</div>
+<div class="nav mystyle">Navigation</div>
+<div class="content">
+    <div class="main mystyle">Main</div>
+    <div class="aside mystyle">Aside</div>
 </div>
-<div class="mar pad ht400 cnt bg1">Contacts</div>
+<div class="footer mystyle">Footer</div>
 
 </body>
 </html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+</head>
+
+<style>
+    .checkerboard {
+        margin: 20px auto;
+        width: 640px;
+        height: 640px;
+        padding: 64px;
+        padding-right: 0px;
+        background: gray;
+        display: grid;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(9, 1fr);
+        /*grid-gap: 2vw;*/
+    }
+
+    .cell {
+        background: #e5b272;
+        flex-grow: 1;
+        margin: 0px;
+    }
+
+    .cell:nth-child(odd) {
+        background: #412003;
+    }
+
+    .cell:nth-child(9n) {
+        width: 0;
+        height: 0;
+    }
+</style>
+
+<body>
+<p>Обережно тут присутні костилі!</p>
+<p>Я хотів випробувати десь nth-child, і вирішив намалювати шахову дошку. Біда в тому, що в ній, тільки на перший
+    погляд, кольори змінюються почергово. Але якщо придивитись, то виявляється що колір останньої клітинки в
+    попередньому рядку і першої в новому збігається. Підійшла б формула 2n+(n%8), але nth-child не сприймає як параметр
+    математичну формулу. Також, я, знаючи кінцеву к-ть клітинок хотів вивести чатковий варіант формули який виглядає як
+    2.125n, але і це не сприймається як коректний параметр. В результаті я зробив грід 9х8 і приховав кожну 9 клітинку.
+    Висновок: я трохи переоцінив варіативність nth-child... :)</p>
+<div class="checkerboard">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+</div>
+</body>
+</html>
