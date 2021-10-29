@@ -1,0 +1,46 @@
+:root {
+    --color_light__blue: #393eda;
+    --color_dark__blue: #1c1f6c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flax {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_light__blue);
+}
+
+
+.footer_item {
+    height: 150px;
+    width: 33.33%;
+    background-color: var(--color_dark__blue);
+}
+
+.kabobs, .top, .footer {
+    margin: 7px 7px 15px 15px;
+    column-gap: 15px;
+}
+
+.top {
+    display: flex;
+}
+
+.kabobs {
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+}
+
+.top_about, .top_home{
+    width: 50%;
+    height: 300px;
+}
