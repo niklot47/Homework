@@ -63,6 +63,7 @@
 
     .card-group{
         flex-direction: column;
+        align-items: center;
         padding: 0 15px;
     }
 
@@ -70,6 +71,7 @@
         width: 290px;
         height: 276px;
         padding: 20px 13px;
+        margin: 0 auto;
     }
 
     .card__header{
