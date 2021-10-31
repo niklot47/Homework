@@ -1,0 +1,32 @@
+@media screen and (max-width: 400px){
+    .first-screen__left h1{
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .first-screen__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .revers{
+        flex-direction: column-reverse;
+    }
+
+    .first-screen__left .first-screen__text::before,
+    .first-screen__left .first-screen__text::after{
+        content: "";
+        display: none;
+        position: absolute;
+        width: 227px;
+        height: 7px;
+        background-color: #EDEFF3;
+    }
+
+    .first-screen__left p {
+
+        margin-top: 40px;
+    }
+}
