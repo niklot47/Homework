@@ -20,7 +20,7 @@
 <body>
 <div class="header">
     <div class="header__nav">
-        <div class="container-fluid d-flex justify-content-between">
+        <div class="container d-flex justify-content-between">
             <ul class="nav nav-pills">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
@@ -99,7 +99,7 @@
         </div>
     </div>
     <div class="header__bottom">
-        <div class="header__contact container-fluid d-flex align-items-center justify-content-between">
+        <div class="header__contact container d-flex align-items-center justify-content-between">
             <div class="logo d-flex align-items-center">
                 <img src="img/logo.png" alt="Logo" height="71" width="66"/>
                 <div class="logo_describe">
@@ -140,12 +140,9 @@
             </div>
         </div>
 
-        <div class="header__find container-fluid d-flex align-items-center justify-content-between">
+        <div class="header__find container d-flex align-items-center justify-content-between">
             <div class="search d-flex">
-                <button type="button " class="btn btn-primary btn_ico">
-                    <span><div></div><div></div><div></div></span>
-                    Каталог
-                </button>
+                <button type="button " class="btn btn-primary btn_ico"><span><div></div><div></div><div></div></span>Каталог</button>
                 <div class="input-group input-group-lg">
                     <input type="text" class="form-control" aria-label="Large input group"
                            aria-describedby="input-group-lg" placeholder="Поиск по наименованию или артикулу">
@@ -153,17 +150,63 @@
                 </div>
             </div>
             <div class="btn-panel d-flex">
-                <button class="btn-user d-flex justify-content-center"><img src="img/user.png" height="28" width="28"/>Войти</button>
-                <button class="btn-saved d-flex justify-content-center"><img src="img/heart.png" height="28" width="28"/>Избранное</button>
-                <button class="btn-cart  d-flex justify-content-center"><img src="img/cart2.png" height="28" width="28"/>В корзине нет товаров</button>
+                <button class="btn-user d-flex justify-content-center">
+                    <img src="img/user.png" height="28" width="28"/>Войти
+                </button>
+                <button class="btn-saved d-flex justify-content-center">
+                    <img src="img/heart.png" height="28" width="28"/>Избранное
+                </button>
+                <button class="btn-cart  d-flex justify-content-center">
+                    <img src="img/cart2.png" height="28" width="28"/>В корзине нет товаров
+                </button>
             </div>
         </div>
-
 
 
     </div>
 </div>
 
+<div class="main_block">
+    <div class="container d-flex">
+        <div class="carousel-stock col-xxl-9 col-md-12">
+            <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item d-flex">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5 class="carousel-item__title">Сцепление в сборе</h5>
+                            <p class="carousel-item__brand">0AMCLUTCH.</p>
+                            <p class="carousel-item__price">14 499,99 ₽ <span
+                                    class="carousel-item__old-price">18 550,99 ₽ </span></p>
+                            <button type="button"
+                                    class="btn btn-primary d-flex justify-content-between align-items-center carousel-btn">
+                                <img src="img/Card2.png" height="17" width="17"/>В корзину
+                            </button>
+                        </div>
+                        <img src="img/product1a.png" class="carousel_pr1" height="356" width="417"/>
+
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="new_items col-xxl-3 col-md-12">
+
+        </div>
+    </div>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

@@ -1,4 +1,4 @@
-.header__nav>.container-fluid{
+.header__nav{
     background: #0F2438;
 }
 
@@ -61,6 +61,9 @@
     line-height: 14px;
     text-align: right;
     color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .my-number{
@@ -155,4 +158,97 @@
     line-height: 16px;
     color: #0F2438;
     text-align: end;
+}
+
+.main_block{
+    padding: 30px  280px 70px   280px;
+}
+
+.carousel-item{
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    height: 390px;
+    background-image: url("../img/circle_bg.png");
+}
+
+.carousel-item__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #0A1A2C;
+}
+
+.carousel-item__brand{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.carousel-item__price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+
+.carousel-item__old-price{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.carousel-caption {
+    position: static;
+    padding-top: 120px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.carousel-btn{
+    padding: 0 30px;
+    width: 160px;
+    height: 49px;
+    left: 428px;
+    top: 515px;
+    background: #005BB9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.carousel-control-prev-icon {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-image: url("../img/Chevron_left.png");
+}
+.carousel-control-next-icon {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-image: url("../img/Chevron_right.png");
+}
+
+.carousel-indicators{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
 }
