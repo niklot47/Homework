@@ -1,0 +1,152 @@
+.header__nav>.container-fluid{
+    background: #0F2438;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header__bottom{
+    padding: 32px;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.logo_describe h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+    margin: 4px;
+}
+
+.logo_describe p{
+    width: 168px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+}
+
+.time-text p,
+.map p{
+    margin: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px; /* or 143% */
+    text-align: right;
+    color: #0F2438;
+}
+
+.wa-btn{
+    width: 204px;
+    height: 30px;
+    background: #E1EFD0;
+    border: none;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+}
+
+.my-number{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+    margin-bottom: 0px;
+}
+
+.call-me{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.header__find{
+    margin-top: 35px;
+}
+
+.btn_ico{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    background-color: #005BB9;
+}
+
+.btn_ico span{
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    align-items: center;
+}
+
+.btn_ico span>div{
+    width: 20px;
+    height: 3px;
+    background: #FFFFFF;
+}
+
+.input-group-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #005BB9;
+}
+
+.btn-user,
+.btn-saved,
+.btn-cart{
+    background: none;
+    align-items: center;
+    border: none;
+    border-right: 1px solid #E1E5F8;
+    width: 165px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
+}
+
+.btn-cart{
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0F2438;
+    text-align: end;
+}
