@@ -87,13 +87,19 @@
     margin-top: 35px;
 }
 
+.input-group>.form-control, .input-group>.form-select {
+    width: 400px;
+    font-size: 14px;
+    border: none;
+    background: #F4F5FA;
+}
+
 .btn_ico{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
