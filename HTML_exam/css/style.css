@@ -1,6 +1,7 @@
 
 
-.header__nav {
+.header__nav,
+.media-header__nav{
     background: #0F2438;
 }
 
@@ -21,6 +22,10 @@
     justify-content: center;
     align-items: baseline;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.logo{
+    margin-right: 80px;
 }
 
 .logo_describe h2 {
@@ -51,7 +56,12 @@
     color: #0F2438;
 }
 
-.wa-btn {
+.btn-panel{
+    display: flex;
+}
+
+.wa-btn,
+.wa-btn-media{
     width: 204px;
     height: 30px;
     background: #E1EFD0;
@@ -69,6 +79,14 @@
     column-gap: 8px;
 }
 
+.wa-btn-media{
+    display: none;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
 .my-number {
     font-style: normal;
     font-weight: 500;
@@ -85,8 +103,10 @@
     line-height: 14px;
     text-decoration-line: underline;
     color: #0F2438;
+    opacity: 0.7;
     margin-top: 0;
     margin-bottom: 5px;
+    padding: 0;
 }
 
 .header__find {
@@ -128,6 +148,19 @@
     background: #FFFFFF;
 }
 
+.input-group input {
+    background-color: #F4F5FA;;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding: 10px;
+    width: 449px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C2C5DA;
+}
+
 .input-group-text {
     font-style: normal;
     font-weight: 500;
@@ -136,6 +169,13 @@
     color: #FFFFFF;
     background: #005BB9;
 }
+
+.search .input-group-sm{
+    display: none;
+}
+
+
+
 
 .btn-user,
 .btn-saved,
@@ -177,7 +217,17 @@
     display: flex;
     justify-content: end;
     height: 390px;
+    /*background-image: url("../img/circle_bg.png");*/
+}
+
+.carousel-item-1 {
     background-image: url("../img/circle_bg.png");
+}
+.carousel-item-2 {
+    background-image: url("../img/circle_bg2.png");
+}
+.carousel-item-3 {
+    background-image: url("../img/circle_bg3.png");
 }
 
 .carousel-item__title {
@@ -544,7 +594,7 @@
     height: 235px;
 }
 
-.product_sale {
+.product_sale{
     position: absolute;
     background: #FFB800;
     border-radius: 2px;
@@ -584,6 +634,20 @@
 
 .best-products_cards hr {
     color: #E1E5F8;
+}
+
+.best-products__more button{
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #005BB9;
 }
 
 .what-s-new > p {
@@ -779,4 +843,14 @@
 
 .ddi-active{
     color: #005BB9;
+}
+
+
+
+.cr-media-lg{
+    display: block;
+}
+
+.cr-media-sm{
+    display: none;
 }
